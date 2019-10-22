@@ -49,5 +49,6 @@
 h2 , p {
   color: blueviolet;
   text-align: center;
-  margin: 20px ;
+  margin: 20px;
+  font-size: 20px;
 }
