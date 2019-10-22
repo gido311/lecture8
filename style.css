@@ -6,12 +6,12 @@
 }
 .grid-container {
   width: 80%;
+  height: auto;
   margin: 10px auto;
   display: grid;
   /*grid-template-columns: 1fr 2fr 2fr 1fr; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 80px);
-  height: 200px;
   grid-gap: 5px;
 }
 .item1 {
@@ -34,18 +34,20 @@
 }
 .item5 {
   background-color: green;
-   grid-column: 1 / 4;
-   height: 80px;
+  grid-column: 1 / 4;
+  height: 80px;
 }
 .item6 {
   background-color: grey;
-   grid-column: 1 / 4;
-   height: 80px;
+  grid-column: 1 / 4;
+  height: 80px;
   /* 
   moving grid item around
   grid-row: 1 / 2;
   grid-column: 3 /4; */
 }
-h2{
+h2 , p {
   color: blueviolet;
+  text-align: center;
+  margin: 20px ;
 }
